@@ -3,6 +3,8 @@ lmtcit
 
 Utilities and such for IBM® License Metric Tool™ (ILMT) and Common Inventory Technology™ (CIT)
 
+Learn more about these tools on [IBM's official site](http://www-03.ibm.com/software/products/en/licensemetrictool/)
+
 Licensing
 =========
 
