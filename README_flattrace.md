@@ -7,7 +7,7 @@ Sample
 ======
 Turns this ...
 
-```
+```xml
 <Trace Level="MAX">
  <Time Millis="1383131248668">2013-10-30 06:07:28.668-05:00</Time>
  <Server Format="IP">prddbl34</Server>
