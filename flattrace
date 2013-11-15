@@ -1,0 +1,50 @@
+#!/usr/bin/env node
+
+/**
+ * flattrace - flatten traceCIT.log (XML)
+ *
+ * USAGE: flattrace 
+ *        flattrace traceCIT.log another.log ...
+ *
+ * Flattens the hard-to-read XML format of the traceCIT.log file
+ * into something that can be easily scanned or grepped for
+ * key words.
+ */
+
+var xml2js = require('xml2js'),    // npm install xml2js
+    fs = require('fs'),            // standard
+    util = require('util');        // standard
+
+function fileFrom(path) {
+  return new String(path).substring(path.lastIndexOf('/') + 1)
+}
+
+function flatten(path) {
+  var parser = xml2js.Parser({strict: false});
+
+  parser.addListener('end', function (result) {
+    var d = new Date(result.TRACE.TIME[0]._);
+    var tstamp = d.toISOString();
+    var filename = fileFrom(result.TRACE.SOURCE[0].$.FILENAME);
+    var method = result.TRACE.SOURCE[0].$.METHOD;
+    var num = result.TRACE.SOURCE[0].$.LINE;
+    var text = result.TRACE.LOGTEXT[0].trim();
+    console.log(
+      util.format("%s: %s[%s] %s %s", tstamp, filename, num, method, text)
+    );
+  });
+
+  fs.readFile(path, function(err, data) {
+    parser.parseString(data);
+  });
+}
+
+var logs = ['./traceCIT.log']; // default
+
+if (process.argv.length > 2) {
+  logs = process.argv.slice(2);
+}
+
+logs.forEach(function (log) {
+    flatten(log);
+});
