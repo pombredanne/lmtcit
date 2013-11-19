@@ -5,6 +5,23 @@ Utilities and such for IBM® License Metric Tool™ (ILMT) and Common Inventory 
 
 Learn more about these tools on [IBM's official site](http://www-03.ibm.com/software/products/en/licensemetrictool/)
 
+Dependencies
+============
+
+Most of these utilities have been impelemented in JavaScript [node.js](http://nodejs.org) because of 
+node's ubiquity and efficiency; they will run on pretty much any operating system that exists including
+phones, pads, linux, solaris, aix, mac and windows.
+
+Installation
+============
+Just install [node](http://nodejs.org) and run:
+
+```
+git clone https://github.com/robmuh/lmtcit.git
+```
+
+Then put the resulting directory in your system's PATH, but you knew all this.
+
 Licensing
 =========
 
