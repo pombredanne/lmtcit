@@ -10,7 +10,7 @@ Turns this ...
 ```xml
 <Trace Level="MAX">
  <Time Millis="1383131248668">2013-10-30 06:07:28.668-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[]]></LogText>
  <Source FileName="" Method="Entry main()" Line=""/>
  <Thread>1</Thread>
@@ -18,7 +18,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248672">2013-10-30 06:07:28.672-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[]]></LogText>
  <Source FileName="" Method="Entry resetProvider()" Line=""/>
  <Thread>1</Thread>
@@ -26,7 +26,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248672">2013-10-30 06:07:28.672-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FsLoader::loadFsProvider - entering...
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fs/fs_loader.cpp" Method="Entry loadFsProvider" Line="611"/>
@@ -35,7 +35,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248673">2013-10-30 06:07:28.673-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[DLL prefix = /opt/tivoli/cit/bin/
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fs/fs_loader.cpp" Method="adjustDynamicLibraryName" Line="535"/>
@@ -44,7 +44,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248673">2013-10-30 06:07:28.673-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[::createProvider[provider_cache] - Global cache mode disabled
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/provider_cache/fs_cacheprovider.cpp" Method="createProvider" Line="77"/>
@@ -53,7 +53,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248674">2013-10-30 06:07:28.674-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[::common - user name is 'root'
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fscommon/common.cpp" Method="getUserCacheDir" Line="1631"/>
@@ -62,7 +62,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248674">2013-10-30 06:07:28.674-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[::common - full cache path name is '/opt/tivoli/cit/cache_data/__root'
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fscommon/common.cpp" Method="getUserCacheDir" Line="1658"/>
@@ -71,7 +71,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248674">2013-10-30 06:07:28.674-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[::createProvider[provider_cache] - user cache pathname is '/opt/tivoli/cit/cache_data/__root'
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/provider_cache/fs_cacheprovider.cpp" Method="createProvider" Line="83"/>
@@ -80,7 +80,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248675">2013-10-30 06:07:28.675-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_Cache::FS_Cache - accessMutex name is '_opt_tivoli_cit_cache_data___root_c_mutex'
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fscommon/cache.cpp" Method="FS_Cache" Line="668"/>
@@ -89,7 +89,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248675">2013-10-30 06:07:28.675-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FsLoader::loadFsProvider - exit
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fs/fs_loader.cpp" Method="Exit loadFsProvider" Line="642"/>
@@ -98,7 +98,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248675">2013-10-30 06:07:28.675-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_CacheProvider::shutdown - enter...
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/provider_cache/fs_cacheprovider.cpp" Method="Entry shutdown" Line="262"/>
@@ -107,7 +107,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131248675">2013-10-30 06:07:28.675-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_Cache::lock - waiting for accessMutex [timeout: 30000]...
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fscommon/cache.cpp" Method="lock" Line="1476"/>
@@ -116,7 +116,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278728">2013-10-30 06:07:58.728-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_Cache::lock - accessMutex TIMED_OUT!
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fscommon/cache.cpp" Method="lock" Line="1486"/>
@@ -125,7 +125,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278728">2013-10-30 06:07:58.728-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_Cache::lock - exit. [retValue is -52]
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fscommon/cache.cpp" Method="lock" Line="1496"/>
@@ -134,7 +134,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278728">2013-10-30 06:07:58.728-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_CacheProvider::shutdown - could not lock cache 1!
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/provider_cache/fs_cacheprovider.cpp" Method="Exit shutdown" Line="272"/>
@@ -143,7 +143,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278728">2013-10-30 06:07:58.728-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[Reset provider returned: 1]]></LogText>
  <Source FileName="./../../../src/fscanner/wscanfs/wscanfs.cpp" Method="resetProvider()" Line="1657"/>
  <Thread>1</Thread>
@@ -151,7 +151,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278728">2013-10-30 06:07:58.728-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_CacheProvider::~FS_CacheProvider - calling close...
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/provider_cache/fs_cacheprovider.cpp" Method="Entry ~FS_CacheProvider" Line="132"/>
@@ -160,7 +160,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278729">2013-10-30 06:07:58.729-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_Cache::endCacheUpdate - end cache update: /opt/tivoli/cit/cache_data/__root/fsc_dir.cuflag
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fscommon/cache.cpp" Method="endCacheUpdate" Line="2543"/>
@@ -169,7 +169,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278729">2013-10-30 06:07:58.729-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_CacheProvider::~FS_CacheProvider - compacting cache db...
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/provider_cache/fs_cacheprovider.cpp" Method="~FS_CacheProvider" Line="135"/>
@@ -178,7 +178,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278730">2013-10-30 06:07:58.730-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_Cache::insideCacheUpdate - inside cache update = false
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fscommon/cache.cpp" Method="insideCacheUpdate" Line="2579"/>
@@ -187,7 +187,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278730">2013-10-30 06:07:58.730-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_CacheProvider::~FS_CacheProvider - cache db compact action failed!
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/provider_cache/fs_cacheprovider.cpp" Method="~FS_CacheProvider" Line="140"/>
@@ -196,7 +196,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278730">2013-10-30 06:07:58.730-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[FS_Cache::unlock - accessMutex RELEASED!
 ]]></LogText>
  <Source FileName="./../../../src/fscanner/fscommon/cache.cpp" Method="lock" Line="1505"/>
@@ -205,7 +205,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278731">2013-10-30 06:07:58.731-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[]]></LogText>
  <Source FileName="" Method="Exit resetProvider()" Line=""/>
  <Thread>1</Thread>
@@ -213,7 +213,7 @@ Turns this ...
 </Trace>
 <Trace Level="MAX">
  <Time Millis="1383131278731">2013-10-30 06:07:58.731-05:00</Time>
- <Server Format="IP">prddbl34</Server>
+ <Server Format="IP">myserver</Server>
  <LogText><![CDATA[]]></LogText>
  <Source FileName="" Method="Exit main()" Line=""/>
  <Thread>1</Thread>
